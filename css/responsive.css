@@ -128,7 +128,7 @@ header .nav ul li{
 
 /* Home Slide Section Started*/
 .main{
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 .main > *{
@@ -299,6 +299,9 @@ header .nav ul li{
 
 
 /* Testimonial Sectin started*/
+.testimonial{
+    height: 70vh;
+}
 .content .principal i{
     font-size: 30px;
 }
@@ -313,7 +316,7 @@ header .nav ul li{
 }
   
 
-/* Testimonial Sectin started*/
+/* Testimonial Sectin end*/
 
 /* Tab section Started */
 .tabs .tab-container{

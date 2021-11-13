@@ -170,7 +170,7 @@ header .container .btn input:hover{
 }
 .main .banner1:nth-child(2) {
     animation-delay: 3s;
-    background-image: url(img/xbanner.png.pagespeed.ic.Q0zxZeYU3F.webp);
+    background-image: url(/img/xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
     background-position: center;
     background-size: cover;
 }
@@ -178,7 +178,7 @@ header .container .btn input:hover{
 .main .banner1:nth-child(3) {
     left: 0%;
     animation-delay: 5s;
-    background-image: url(img/xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
+    background-image: url(/img/xbanner.png.pagespeed.ic.Q0zxZeYU3F.webp);
     background-position: center;
     background-size: cover;
 }
@@ -186,7 +186,7 @@ header .container .btn input:hover{
 .main .banner1:nth-child(4) {
     left: 0%;
     animation-delay: 8s;
-    background-image: url(img/xbanner.png.pagespeed.ic.Q0zxZeYU3F.webp);
+    background-image: url(/img/xbanner.png.pagespeed.ic.Q0zxZeYU3F.webp);
     background-position: center;
     background-size: cover;
 }
@@ -498,7 +498,7 @@ header .container .btn input:hover{
 .testimonial {
     height: 90vh;
     width: 100%;
-    background-image: url(img/testimonial1.webp);
+    background-image: url(/img/testimonial1.webp);
     background-size: cover;
 }
 .testimonial .content{
@@ -665,14 +665,14 @@ input[type="radio"] {
 }
 
 .contactL {
-     background-image: url(img/Contact\ back1.png);
+     background-image: url(/img/Contact\ back1.png);
      background-position: center center;
      background-size: cover;
      width: 100%;
      
 }
 .contactR {
-    background-image: url(img/Contact\ back2.webp);
+    background-image: url(/img/Contact\ back2.webp);
     background-position: center center;
      background-size: cover;
      width: 100%;
