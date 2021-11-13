@@ -73,10 +73,8 @@
 
 @media (max-width: 768px){
 
-    header{
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-    }
 /*Top Header Section Started*/
+
 .top-header{
     height: 100px;
 }
@@ -88,6 +86,10 @@
 /*Top Header Section End*/
 
 /*Header Section Started*/
+
+header{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
 header .container .btn input{
     display:none;
 }
@@ -436,6 +438,10 @@ footer{
     font-size: 12px;
     padding: 10px;
 }
+/*Footer Section End*/
+
+/*Footer bottom Section Strated*/
+
 .bottom-footer{
     height: 100px;
     padding: 10px 30px;
@@ -443,6 +449,8 @@ footer{
 .bottom-footer p{
     padding-top: 20px;
 }
+/*Footer bottom Section End*/
+
 
 }
 
