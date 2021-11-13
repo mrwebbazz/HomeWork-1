@@ -1,0 +1,445 @@
+
+@media (max-width: 1024px){
+
+    header .container{
+        width: 90%;
+    }
+    header .container .btn input{
+        display:none;
+    }
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 30pxx;
+        cursor: pointer;
+    }
+    header .nav ul{
+    
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        top: 105px;
+        left: -200%;
+        margin-top: 20px;
+        padding: 20px 0 0 50px;
+        transition: all .1s;
+        z-index: 999;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        display: block;
+    }
+    .checkbtn{
+       margin-right: -470px;
+        padding-top: 5px;
+        display: block;
+        position: absolute;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .section3 .container{
+
+    }
+
+
+    .gret2{
+        margin-right:0;
+    }
+    .gret1 .img2{
+        position: absolute;
+        margin-left:100px;
+        margin-top: 80px;
+        width: 325px;
+        height: 395px;
+        
+    }
+    .gret2 .gretp {
+       
+        width: 330px;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 768px){
+
+    header{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+/*Top Header Section Started*/
+.top-header{
+    height: 100px;
+}
+.top-header .container{
+    flex-direction: column;
+    width: 100%;
+    text-align:center;
+}
+/*Top Header Section End*/
+
+/*Header Section Started*/
+header .container .btn input{
+    display:none;
+}
+.checkbtn{
+    display: block;
+    position: absolute;
+    right: 30pxx;
+    cursor: pointer;
+}
+header .nav ul{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 150px;
+    left: -200%;
+    margin-top: 20px;
+    padding: 20px 0 0 50px;
+    transition: all .1s;
+    z-index: 999;
+}
+header .nav ul li{
+    line-height: 30px;
+    clear: both;
+    margin-top: 15px;
+    display: block;
+}
+.checkbtn{
+    margin-right: -130px;
+    padding-top: 5px;
+    display: block;
+    position: absolute;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+
+/* Home Slide Section Started*/
+.main{
+    height: 100vh;
+    position: relative;
+}
+.main > *{
+    height: 100vh;
+}
+.main .banner1 h1{
+    font-size: 2.3rem;
+}
+.main .banner1 h2{
+    font-size: 2.5rem;
+}
+.main .banner1 p{
+    font-size: 16px;
+    width: 350px;
+}
+.banner1 button{
+    margin-top: 10px;
+    padding: 12px 22px;
+}
+
+/* Home Slide Section End*/
+
+/* Section3 Started */
+
+.section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.section3 .container{
+    display: flex;
+    flex-direction: column;
+}
+.hos{
+    padding: 30px 50px 50px 50px;
+    
+}
+.emer{
+    padding: 30px 50px 50px 50px;
+   
+}
+.chem{
+    padding: 30px 50px 50px 50px;
+}
+.hos i{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.hos h3{
+    font-size: 20px;
+}
+.hos p{
+    color: #fff;
+    font-size: 16px;
+}
+.hos button{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Section 4 Started*/
+
+.section4{
+    flex-direction: column;
+    margin-top: 100px;
+    position: static;
+}
+.gret1{
+    margin-left: 0;
+    padding: 0 20px;
+    display: block;
+}
+.gret1 .img1{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: static;
+}
+.gret1 .img2{
+  display: none;
+  position: static;
+    
+}
+.gret2{
+    margin-right: 0;
+    padding: 0 20px;
+    height: auto;
+    display: block;
+}
+.gret2 h3{
+    margin-top: 20px;
+
+}
+.gret2 h3::after{
+    content: "";
+    display: none;
+}
+.gret2 h2{
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+.gret2 .gretp{
+    width: 400px;
+    padding: 10px 0px;
+}
+.gret2 button{
+    padding: 5px 15px;
+    margin-left:0px;
+}
+/* Section 4 end */
+
+
+/* Section 5 Started */
+
+
+.section5{
+    margin-top: 750px;
+    padding: 50px 0;
+    height: fit-content;
+    width: 100%;
+    height: auto;
+    
+}
+.section5 .text1{
+    margin: 0 auto;
+    width: 100%;
+    align-items: content;
+    text-align: center;
+}
+.section5 .text1 h1{
+    font-size: 26px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+.section5 .text1 h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 43%;
+}
+.section5 .text1 p{
+    padding: 0 40px;
+    width: fit-content;
+}
+.section5 .card1{
+    flex-direction: column;
+}
+.section5 .card1 .card{
+    margin: 20px auto;
+    width: min-content;
+}
+.section5 .card1 .card figure {
+    width: 400px;
+    height:245px;
+    overflow: hidden;
+}
+.section5 .card1 .card img{
+    vertical-align: middle;
+    border-style: none;
+    width: 400px;
+    height:245px;
+    transition: all 0.5s linear;
+}
+
+/* Section 5 End */
+
+
+/* Testimonial Sectin started*/
+.content .principal i{
+    font-size: 30px;
+}
+.testimonial .content .principal{
+    padding-top: 70px;
+}
+.content .principal .quote{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+  
+
+/* Testimonial Sectin started*/
+
+/* Tab section Started */
+.tabs .tab-container{
+    padding-left: 30px;
+}
+.tabs .tab-content{
+    padding: 0;
+}
+
+.tab-content .inner {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 35px;
+}
+.tab-container label{
+    font-size: 18px;
+    padding: 10px 75px 15px 0px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.inner-left i{
+    font-size: 20px;
+    background-color: rgba(69, 165, 252, 0.7);
+    padding: 10px;
+    color: #fff;
+    margin-top: 70px;
+}
+.inner-left h3{
+    font-size: 18px;
+}
+.inner-left p{
+    width: 400px;
+    padding-right: 20px;
+}
+.inner-right img{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+/* tab section End */
+
+/*Doctors Section Start*/
+
+.doctors{
+    margin: 50px auto;
+    margin-top: 100px;
+}
+.doctors h1{
+    font-size: 26px;
+    margin-top: 140px;
+}
+.doctors .doctor{
+    flex-direction: column;
+}
+.doctor .card figure{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.doctor .card img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s linear;
+}
+/*Doctors Section End*/
+
+/* Contact Section Start*/
+
+.contact{
+    flex-direction: column;
+}
+.contact .container{
+    flex-direction: column;
+}
+.contact .container button{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+.contactL .container{
+    padding-left: 30px;
+}
+.contactR .container{
+    padding-left: 30px;
+}
+.contact .contactL .left{
+   margin-left: 0px;
+}
+.contact .contactR .right{
+   margin-right:0px;
+}
+.contact .container h2{
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+/* Contact Section End */
+
+/*Footer Section Strated*/
+footer{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    margin-top: 50px;
+    flex-direction: column;
+}
+.wrapper .part1, .part2, .part3, .part4{
+    margin-top: 20px;
+}
+.part1 i{
+    font-size: 12px;
+    padding: 10px;
+}
+.bottom-footer{
+    height: 100px;
+    padding: 10px 30px;
+}
+.bottom-footer p{
+    padding-top: 20px;
+}
+
+}
+
